@@ -26,6 +26,7 @@ public class MetroLine {
         
         System.out.println("The train station near my home is "+ k + " and it is 10km from where I live");
 
+        System.out.println("This is to prove that I have successfully made changes through Eclipse");
         
         
     }
