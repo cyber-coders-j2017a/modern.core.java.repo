@@ -1,0 +1,35 @@
+Assignment One – Java
+
+Write a program to mimic basic calculator functionality – This program would be capable of taking input from the console/keyboard, process the data and output the result on the console.
+
+The application must do the following operations:
+
+Addition, Subtraction, Division, Multiplication and be capable of finding remainder of any two numbers.
+
+ 
+
+Key Learning points are:
+
+Ability to demonstrate the knowledge of Java project and its sub modules like packages, source folder, classes and main methods.
+
+Ability to demonstrate the use of input and output operations
+
+Ability to demonstrate the use conditional statement in Java
+
+No knowledge of Control statements is required at this point.
+
+ 
+
+Assignment submission date would be on Monday next week being 5th of June 2017.
+
+
+Good luck                      
+
+- Dotcom
+
+    
+
+	
+	
+	
+
