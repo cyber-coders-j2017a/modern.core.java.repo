@@ -1,0 +1,243 @@
+
+
+package CasioCalculator;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Kanini W'Tang
+ */
+public class WutangCode {
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+// answer = ans used as ''double'' data type 
+
+  double ans;
+     
+// Input First figure on console == i have used "double" in order to statisfy all mathematical conditions
+
+   System.out.println("Enter X:");
+   String score = scan.nextLine();
+   double x =Double.parseDouble(score);
+ 
+// Input First figure on console == i have used "double" in order to statisfy all mathematical conditions
+  
+     System.out.println("Enter Y:");
+        String rawScore = scan.nextLine();
+        double y =Double.parseDouble(rawScore);
+ 
+// conditional statements using operations (Add + ,Substraction - , Multiplication * , Division / , & Modulus %) 
+ 
+       if(x==1 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else if(x<=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+      }else if (x<=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        
+        }else if (x<=0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        
+        }else if (x==0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        
+        }else if (x>=0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else{ 
+        System.out.println("The result is = "+ "zero");
+        }
+}
+}
+
+
+code 2 - option 2
+
+//
+
+package CasioCalculator;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Kanini W'Tang
+ */
+public class WutangCode {
+
+public static void main(String[]args){
+
+    System.out.println("Please input your figures");
+   Scanner scan = new Scanner (System.in);
+   
+  int x,y,ans;
+  
+   System.out.println("Enter X:");
+    x = scan.nextInt();
+    
+     System.out.println("Enter Y:");
+        y = scan.nextInt();
+        
+       if(x==1 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else if(x<=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+      }else if (x<=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else{ 
+        System.out.println("The result is = "+ "zero");
+        }
+}
+}
+
+
+// 2.
+
+package CasioCalculator;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Kanini W'Tang
+ */
+public class WutangCode {
+
+public static void main(String[]args){
+
+    System.out.println("Please input your figures");
+   Scanner scan = new Scanner (System.in);
+   
+  double x,y,ans;
+  
+   System.out.println("Enter X:");
+    x = scan.nextDouble();
+    
+     System.out.println("Enter Y:");
+        y = scan.nextDouble();
+        
+       if(x==1 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else if(x<=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+      }else if (x<=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else{ 
+        System.out.println("The result is = "+ "zero");
+        }
+}
+}
