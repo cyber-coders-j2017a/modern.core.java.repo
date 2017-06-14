@@ -1,0 +1,68 @@
+    public static void main(String[] args) {
+     String FuelPriceYesterday  = "80";
+     String FuelPriceToday = "100";
+     double Price1 = Double.parseDouble(FuelPriceYesterday);
+      double Price2=Double.parseDouble(FuelPriceToday);
+      System.out.println(Price2*Price1);
+
+public static void main(String[] args) {
+     String FuelPriceYesterday  = "80";
+     String FuelPriceToday = "50";
+     int Price1 = Integer.parseInt(FuelPriceYesterday);
+      int Price2=Integer.parseInt(FuelPriceToday);
+      System.out.println(Price2*Price1);
+      
+    }
+    
+}
+
+
+public static void main(String[] args) {
+     String FuelPriceYesterday  = "20";
+     String FuelPriceToday = "50";
+     float Price1 = Float.parseFloat(FuelPriceYesterday);
+      float Price2=Float.parseFloat(FuelPriceToday);
+      System.out.println(Price2/Price1);
+      
+    }
+    
+}
+
+
+   public static void main(String[] args) {
+     String FuelPriceYesterday  = "20";
+     String FuelPriceToday = "50";
+     int Price1 = Integer.parseInt(FuelPriceYesterday);
+    int Price2=Integer.parseInt(FuelPriceToday);
+      System.out.println(Price2/Price1);
+      
+      String P1 = Integer.toString(Price1);
+       String P2 = Integer.toString(Price2);
+
+
+/// simple calculator
+
+ public static void main(String[] args){
+    System.out.println("Please enter your score");
+   Scanner scan = new Scanner (System.in);
+   String score = scan.nextLine();
+   int biologyScore = Integer.parseInt(score);
+       
+    if(biologyScore <=20){
+        System.out.println("You failed the course");
+    }else if (biologyScore>=20 && biologyScore <=40){
+    System.out.println("You passed");
+    }else if(biologyScore>=40 && biologyScore <=60){
+    System.out.println("You have Credit");
+    }else if(biologyScore>=60 && biologyScore <=80){
+        System.out.println("You Metrit");
+    }else if(biologyScore>=80 && biologyScore<=100){
+    System.out.println("You made distinction");
+    }else{
+    System.out.println("There is no such score");
+    }
+        
+    }
+    }
+
+
