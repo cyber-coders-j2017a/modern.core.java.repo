@@ -8,7 +8,7 @@ public class Main {
         Scanner myInput = new Scanner(System.in);
         String number = myInput.nextLine();
 
-        System.out.println(number);
+        System.out.println("The winning number is :" + number+"-51");
 
 
 
