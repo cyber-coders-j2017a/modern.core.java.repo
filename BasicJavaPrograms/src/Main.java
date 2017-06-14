@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("The winning number is : " + number+"-51");
         System.out.println("Please try again next time");
-
+        System.out.println("Please try again next time");
 
 
     }
