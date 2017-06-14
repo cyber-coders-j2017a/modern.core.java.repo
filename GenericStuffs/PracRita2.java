@@ -21,6 +21,7 @@ public class PracRita2 {
          System.out.println("Hello World");
         System.out.println("I Love to do Fish project in my new Vmmachine");
         System.out.println("But my new Ubuntu Machine is painfully slow");
+		System.out.println("But my new Ubuntu Machine is painfully slow");
     }
     
 }
