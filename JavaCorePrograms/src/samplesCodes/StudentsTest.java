@@ -24,6 +24,8 @@ public class StudentsTest {
                 String name = studentNames[i];
                 System.out.println("The student you are looking for is "+name);
                 break;
+            }else{
+                System.out.println("Still searching ...");
             }
         }
     }
