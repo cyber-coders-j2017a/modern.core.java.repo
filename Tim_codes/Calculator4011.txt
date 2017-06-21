@@ -1,0 +1,84 @@
+package Calculator401;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Kanini W'Tang
+ */
+public class Calculator4011 {
+
+// Assignment on Simple Calculator in Java using conditional statements//
+
+public static void main(String[]args){
+
+    System.out.println("Please input your figures");
+   Scanner scan = new Scanner (System.in);
+   
+  int ans;
+     
+  
+   System.out.println("Enter X:");
+   String score = scan.nextLine();
+   int x =Integer.parseInt(score);
+    
+     System.out.println("Enter Y:");
+        String myscan = scan.nextLine();
+        int y =Integer.parseInt(myscan);
+        
+       if(x==1 && y >=0 ){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else if(x<=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+      }else if (x<=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y)); 
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        
+        }else if (x<=0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        
+        }else if (x==0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        
+        }else if (x>=0 && y ==0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y <=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+        }else if (x>=0 && y >=0){
+        System.out.println("The result is = " + (ans=x+y));
+        System.out.println("The result is = " + (ans=x-y));
+        System.out.println("The result is = " + (ans=x/y));
+        System.out.println("The result is = " + (ans=x*y));
+        System.out.println("The result is = " + (ans=x%y));
+       }else{ 
+        System.out.println("The result is = "+ "zero");
+        }
+}
+}
