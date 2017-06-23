@@ -19,7 +19,7 @@ public class Phone {
     boolean incombustable = true;
     boolean unstealable = true;
     boolean SimLess = true;
-    boolean unlimitedStorageWithSubscription
+    boolean unlimitedStorageWithSubscription;
 
 
 
