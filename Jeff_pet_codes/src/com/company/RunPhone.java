@@ -8,25 +8,46 @@ public class RunPhone {
 
       public static void main(String args[]){
 
-          Phone Jmagnum = new Phone ();
+          Phone jmagnum = new Phone ();
 
-          Jmagnum.makecalls();
+          jmagnum.makecalls();
 
-          Jmagnum.sendTextMessages();
-
-
-         double j1 = Jmagnum.weight;
+          jmagnum.sendTextMessages();
 
 
-         boolean j2 = Jmagnum.antiScratch;
+         double j1 = jmagnum.weight;
 
 
-          double screanSize = 7.3d;
-          String colour = "gold jeff mixer";
-          String camera = "35 megaPixels";
-          String memory = "99 GB";
-          String battery = "up to 20hours talkTime";
-          String operationSystem = "Jff 1.2";
+
+         boolean j2 = jmagnum.antiScratch;
+
+
+
+
+         String j3 = jmagnum.memory;
+
+
+
+
+         String j4 = jmagnum.camera;
+
+
+         String j5 = jmagnum.battery;
+
+
+
+
+         double j6 = jmagnum.screanSize;
+
+
+
+         String j7 = jmagnum.colour;
+         
+
+
+         String j8 = jmagnum.operationSystem;
+
+
 
 
 
