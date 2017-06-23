@@ -26,6 +26,9 @@ public class Phone {
 
     public void makeCalls()
     {
-
+        System.out.println( "This new product redefines making calls from your mobile device");
+        System.out.println( "Calls can made from the most remote location you can think of ");
+        System.out.println( "conference calling expanded to unlimited numbers of participants");
+        System.out.println( "access mobile numbers to call by just a tap");
     }
  }
