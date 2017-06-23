@@ -24,11 +24,28 @@ public class Phone {
 
     //methods
 
-    public void makeCalls()
+    public void makecalls()
     {
         System.out.println( "This new product redefines making calls from your mobile device");
         System.out.println( "Calls can made from the most remote location you can think of ");
         System.out.println( "conference calling expanded to unlimited numbers of participants");
         System.out.println( "access mobile numbers to call by just a tap");
     }
+
+
+    public void sendTextMessages()
+    {
+        System.out.println( "Text messaging of the future, period!");
+        System.out.println( "featured in all Nigerian ethnic languagues including international languages  ");
+        System.out.println( "voice recognition messaging on another level");
+        System.out.println( "allocate different selected paragraphs in messages to multiple recipient");
+
+    }
+
+    public void downloadApps()
+    {
+         
+
+    }
+
  }
