@@ -16,7 +16,7 @@ public class MyStringOps {
         boolean t2 = houseNum.startsWith("15 North");
         boolean t3 = houseNum.matches("15 North");
         int t5 = houseNum.length();
-        
+
 
         String cityInfo = " Sunderland City Council in Chester Road";
         String cityFootball = "Sunderland City";
