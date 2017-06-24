@@ -20,10 +20,10 @@ public class Main {
         if (caloriesLost >= 50 && caloriesLost <= 60) {
             System.out.println("I walked for 30 mins today");
             do{
-                System.out.println("Lost a total of" +caloriesLost);
+                System.out.println("And I lost a total of " +caloriesLost + " calories");
                 noOfDays--;
 
-            }while(caloriesLost <= 60);
+            }while(caloriesLost > 60);
 
 
         } else if (caloriesLost >= 100 && caloriesLost <= 150) {
