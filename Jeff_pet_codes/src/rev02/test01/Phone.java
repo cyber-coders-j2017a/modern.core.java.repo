@@ -1,4 +1,4 @@
-package com.company;
+package rev02.test01;
 
 public class Phone {
 
