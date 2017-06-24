@@ -15,6 +15,12 @@ public class RunnerLagosBank {
 
         System.out.println("The code worked as expected - bravo");
         System.out.println(myElephantBank.bankCustomers);
+        System.out.println(myElephantBank.bankAddress);
+        System.out.println(myElephantBank.bankGdp);
+        System.out.println(myElephantBank.bankEmployees);
+        System.out.println(myElephantBank.bankTypes3;);
+        System.out.println(myElephantBank.bankMinimiumOpeningBalance);
+        System.out.println(myElephantBank.bankRegulator(););
 
     }
 }

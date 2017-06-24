@@ -45,7 +45,7 @@ public class lagosBank {
         public void bankCofO () {
             System.out.println("Bank of Lagos was incorporated in Nigeria - 1900");}
 
-    public void bbankCustomers() {
+    public void bankCustomers() {
                 System.out.println("Our client base and business customers are one of its kind within our competitors");}
 
 
