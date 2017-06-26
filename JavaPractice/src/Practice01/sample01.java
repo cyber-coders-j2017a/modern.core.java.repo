@@ -29,7 +29,14 @@ public class sample01 {
             System.out.println("Your child will go to reception class");
         }else if(age > 5 && age <= 11){
             System.out.println("Your child will be in key stage 2, which is from year one to year six");
-        } else if (age> 2 && age )
+        } else if (age> 2 && age <=10 )
             System.out.println("Your child will be in key stage 2, which is from year one to year six");
+    } else{
+            System.err.println("CONFLICT GALORE");
+            System.err.println("CONFLICT GALORE");
+            System.err.println("CONFLICT GALORE");
+
     }
+
+
 }
