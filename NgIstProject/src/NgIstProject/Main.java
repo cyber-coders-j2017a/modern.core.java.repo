@@ -33,10 +33,10 @@ public class Main {
             System.out.println("I walked for an hour 30 mins today");
 
         } else if (caloriesLost >= 200 && caloriesLost <= 250) {
-            System.out.println("I ran for an hour 2 miles today");
+            System.out.println("I ran for 2 miles today");
 
         } else if (caloriesLost >= 250 && caloriesLost <= 300) {
-            System.out.println("I ran for an hour 2.5 miles today");
+            System.out.println("I ran for 2.5 miles today");
             if (caloriesLost > 270) {
                 System.out.println("I ran at a pace more 11 mins per mile");
             }else {
