@@ -6,6 +6,8 @@ import java.util.Scanner;
  * Created by oddie on 21/06/2017.
  */
 public class sample01 {
+
+    
     public static void main(String[] args) {
 
         System.out.println("Hello, Please enter the child's age");
@@ -25,7 +27,7 @@ public class sample01 {
             System.out.println("Your child will go to reception class");
         }else if(age > 5 && age <= 11){
             System.out.println("Your child will be in key stage 2, which is from year one to year six");
-        } else if (age> 2 && age ){
+        } else if (age> 2 && age < 3){
             System.out.println("Your child will be in key stage 2, which is from year one to year six");
         }else{
             System.out.println("This is another show");
