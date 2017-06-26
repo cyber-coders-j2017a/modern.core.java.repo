@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class sample01 {
 
-    
+
     public static void main(String[] args) {
 
         System.out.println("Hello, Please enter the child's age");
