@@ -7,10 +7,17 @@ import java.util.Scanner;
  */
 public class sample01 {
     public static void main(String[] args) {
+
+        System.out.println("This is a sample code I am adding");
+
         System.out.println("Hello, Please enter the child's age");
+
         Scanner childAge = new Scanner(System.in);
         String childAges = childAge.nextLine();
         int age = Integer.parseInt(childAges);
+
+        System.out.println("This is a sample code I am adding");
+
 
         if(age < 1){
             System.out.println("Sorry we haven't got any places for that age");
