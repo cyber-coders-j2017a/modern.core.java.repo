@@ -19,12 +19,17 @@ public class sample01 {
             System.out.println("Your child will go to playgroup");
         }else if(age == 4){
             System.out.println("Your child will go to nursery class");
+            System.out.println("Your child will go to reception class");
         }else if(age == 5){
+            System.out.println("Your child will go to reception class");
             System.out.println("Your child will go to reception class");
         }else if(age > 5 && age <= 11){
             System.out.println("Your child will be in key stage 2, which is from year one to year six");
+        } else if (age> 2 && age ){
+            System.out.println("Your child will be in key stage 2, which is from year one to year six");
         }else{
-            System.out.println("This is the code here!");
+            System.out.println("This is another show");
         }
+
     }
 }
