@@ -52,7 +52,14 @@ public class JavaDataTypes {
         //User defined data types
         Dotcom a15 = new Dotcom();
 
+        //Object data type
+        Object studentDetails = "Chika";
+//        studentDetails = 2;
+//        studentDetails = true;
+        String firstName  = (String) studentDetails;
 
+        Object age = 30;
+        int myAge = (Integer) age;
 
 
 
