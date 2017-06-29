@@ -15,7 +15,7 @@ public class Activity1 {
         int myOwnActivity = Integer.parseInt(myActivity);
 
 
-String [] ActivitiesDone = {"gym", "running", "walking"};
+String [] ActivitiesDone = { "gym", "running", "walking" };
 
         for (int x = 1; x < 4; x++) {
 
