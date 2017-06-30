@@ -5,6 +5,8 @@ package fullcodes.session.oop.methods;
  */
 public class Calculator {
 
+
+    private static String myName = "Dotcom";
     private Focus carType;
     private int var1;
     private int var2;
@@ -45,6 +47,14 @@ public class Calculator {
         return message;
     }
 
+
+
+    public static String addTwoNumber5(int a, int b){
+        int result = a +b;
+        String message = "The result is "+ result;
+        System.out.println(message);
+        return message;
+    }
 
 
 // Can return any data type as you please
