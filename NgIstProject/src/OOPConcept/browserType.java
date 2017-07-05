@@ -13,7 +13,7 @@ public class browserType {
     }
 
     public void checkTestResults() {
-        System.out.println("I can verify exeuted tests");
+        System.out.println("I can verify executed tests");
 
     }
 }
