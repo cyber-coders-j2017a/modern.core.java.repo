@@ -22,33 +22,47 @@ public class Account {
     }
 
     public double getAccountBalance(){
-        return accountBalance;
+        int pin = getPin();
+        if(pin == pinNumber){
+            return accountBalance;
+        }else{
+           return 0.0;
+        }
     }
 
 
     public String depositMoney(double amount){
-        double newAccountBalance = accountBalance + amount;
-        this.accountBalance = newAccountBalance;
-        return "Your account balance is £"+newAccountBalance;
+        int pin = getPin();
+        if(pin == pinNumber){
+            double newAccountBalance = accountBalance + amount;
+            this.accountBalance = newAccountBalance;
+            return "Your account balance is £"+newAccountBalance;
+        }else {
+            return "Access is denied";
+        }
     }
 
 
-//    public void depositMoney1(double amount){
-//        this.accountBalance  = accountBalance + amount;
-//    }
+
 
     public String withdrawMoney(double amount){
-        System.out.println("Please enter your PIN number");
-        Scanner myConsole = new Scanner(System.in);
-        String pinRaw = myConsole.nextLine();
-        int pin = Integer.parseInt(pinRaw);
+        int pin = getPin();
         if (pin == pinNumber){
+            System.out.println("Access granted");
             double newAccountBalance = accountBalance - amount;
             this.accountBalance = newAccountBalance;
             return "Your account balance is £"+newAccountBalance;
         }else{
             return "Authorisation is denied";
         }
+    }
+
+
+    private int getPin() {
+        System.out.println("Please enter your PIN number");
+        Scanner myConsole = new Scanner(System.in);
+        String pinRaw = myConsole.nextLine();
+        return Integer.parseInt(pinRaw);
     }
 
 
