@@ -9,6 +9,11 @@ public class RunnerCalc {
 
     public static void main(String[] args) {
 
+        Calculator.addTwoNumber5(3, 8);
+
+
+
+
         //Instantiation is a process of creating object out of a class
         Calculator calculator = new Calculator();
         Calculator compute = new Calculator(20, 10, 11d);

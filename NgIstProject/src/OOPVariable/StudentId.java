@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class StudentId {
 
     public static void main(String[] args) {
-        System.out.println("What student no is assigned to the next student");
+        System.out.println("What centre and Id is assigned to the next student");
 
         Scanner myscan = new Scanner(System.in);
         String studentId = myscan.nextLine();

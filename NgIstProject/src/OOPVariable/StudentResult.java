@@ -15,10 +15,12 @@ public class StudentResult {
     String studentResult = myscan.nextLine();
 
 
+    GCEResult myResult = new GCEResult();
+    myResult.issueResult(studentResult);
 
 
-    GCEResult myresult = new GCEResult();
-    myresult.issueResult(studentResult);
+
+
 
         }
 

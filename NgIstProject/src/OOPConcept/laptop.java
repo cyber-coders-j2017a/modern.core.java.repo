@@ -39,9 +39,9 @@ public class laptop {
     public void watchVideos () {
         browserType mozilla = new browserType();
         mozilla.runTest();
-        System.out.println("yah!!! I can watch an many video as I want");
-        System.out.println("yah!!! I can watch an many video as I want");
-        System.out.println("yah!!! I can watch an many video as I want");
+        System.out.println("yah!!! I can watch as many video as I want");
+        System.out.println("yah!!! I can watch as many video as I want");
+        System.out.println("yah!!! I can watch as many video as I want");
     }
 
 
