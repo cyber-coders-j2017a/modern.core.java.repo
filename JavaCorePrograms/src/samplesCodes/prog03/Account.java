@@ -24,6 +24,7 @@ public class Account {
     public double getAccountBalance(){
         int pin = getPin();
         if(pin == pinNumber){
+            System.out.println("Access granted");
             return accountBalance;
         }else{
            return 0.0;
@@ -34,6 +35,7 @@ public class Account {
     public String depositMoney(double amount){
         int pin = getPin();
         if(pin == pinNumber){
+            System.out.println("Access granted");
             double newAccountBalance = accountBalance + amount;
             this.accountBalance = newAccountBalance;
             return "Your account balance is £"+newAccountBalance;
