@@ -9,15 +9,15 @@ public class AccountRunner {
 
 //      Class   Object   = newMemory   Constructor
         Account barclays = new Account(128000, "Wilson Jones", "Barclays");
-        Double initialAmount = barclays.getAccountBalance();
-
-        String newBal = barclays.depositMoney(8000);
+//        Double initialAmount = barclays.getAccountBalance();
+//        System.out.println(initialAmount);
+//
+//        String newBal = barclays.depositMoney(8000);
+//        System.out.println(newBal);
 
         String newBal2 = barclays.withdrawMoney(125);
+        System.out.println(newBal2);
 
 
-        // Making this class very generic
-        Account halifax = new Account(3000, "Jeff Oshare", "Halifx");
-        double defualtBal = halifax.getAccountBalance();
     }
 }

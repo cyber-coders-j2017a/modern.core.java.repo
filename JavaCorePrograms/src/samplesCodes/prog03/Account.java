@@ -1,5 +1,7 @@
 package samplesCodes.prog03;
 
+import java.util.Scanner;
+
 /**
  * Created by dotcom on 7/5/17.
  */
@@ -36,7 +38,11 @@ public class Account {
 //    }
 
     public String withdrawMoney(double amount){
-        if (pinNumber == 4321){
+        System.out.println("Please enter your PIN number");
+        Scanner myConsole = new Scanner(System.in);
+        String pinRaw = myConsole.nextLine();
+        int pin = Integer.parseInt(pinRaw);
+        if (pin == pinNumber){
             double newAccountBalance = accountBalance - amount;
             this.accountBalance = newAccountBalance;
             return "Your account balance is £"+newAccountBalance;
