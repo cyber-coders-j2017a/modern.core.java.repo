@@ -36,9 +36,8 @@ public class Account {
         int pin = getPin();
         if(pin == pinNumber){
             System.out.println("Access granted");
-            double newAccountBalance = accountBalance + amount;
-            this.accountBalance = newAccountBalance;
-            return "Your account balance is £"+newAccountBalance;
+            this.accountBalance = accountBalance + amount;
+            return "Your account balance is £"+accountBalance;
         }else {
             return "Access is denied";
         }
@@ -48,12 +47,12 @@ public class Account {
 
 
     public String withdrawMoney(double amount){
-        int pin = getPin();
-        if (pin == pinNumber){
+        int pin = this.getPin();
+        String name = this.getAccountName();
+        if (pin == pinNumber && accountName.contains(name)){
             System.out.println("Access granted");
-            double newAccountBalance = accountBalance - amount;
-            this.accountBalance = newAccountBalance;
-            return "Your account balance is £"+newAccountBalance;
+            this.accountBalance = accountBalance - amount;
+            return "Your account balance is £"+accountBalance;
         }else{
             return "Authorisation is denied";
         }
@@ -65,6 +64,12 @@ public class Account {
         Scanner myConsole = new Scanner(System.in);
         String pinRaw = myConsole.nextLine();
         return Integer.parseInt(pinRaw);
+    }
+
+    public String getAccountName(){
+        System.out.println("Please enter your PIN number");
+        Scanner myConsole = new Scanner(System.in);
+        return myConsole.nextLine();
     }
 
 
