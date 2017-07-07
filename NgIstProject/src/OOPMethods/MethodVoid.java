@@ -8,6 +8,8 @@ public class MethodVoid {
     private int price1;
     private int price2;
     private double price = 50d;
+    private Focus pricefocus;
+    private static String myName = "TestPrice";
 
     public MethodVoid(){
         this.price1 = 10;
@@ -20,6 +22,12 @@ public class MethodVoid {
         this.price1 = value1;
         this.price2 = value2;
         this.price = value3;
+    }
+
+
+    public MethodVoid(Focus focus) {
+        this.pricefocus = focus;
+
     }
 
     public void addnumbers1st() {
@@ -45,12 +53,16 @@ public class MethodVoid {
         return result;
     }
 
-
-        public Object getTheRightNumber() {
-        Object number = "1000";
-        return number;
-
+    public static String addnumbers5(int a, int b) {
+        int result = a + b;
+        String message = "Answer is " + result;
+        System.out.println(message);
+        return message;
 
 
     }
+
+
+
+
 }
