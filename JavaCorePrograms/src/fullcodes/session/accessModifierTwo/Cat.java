@@ -13,6 +13,5 @@ public class Cat extends Animal{
 
         Barclays barclays = new Barclays();
         barclays.accountNumber = 45;
-        System.out.println();
     }
 }
