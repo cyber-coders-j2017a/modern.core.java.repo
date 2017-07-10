@@ -9,7 +9,7 @@ public class FordRunner {
 
         String[] carNames = new String[]{"C-Max", "Kia"};
         Student myStud = new Student(carNames);
-        myStud.showStudentNames();
+        myStud.showStudentAge1();
 
 
 

@@ -1,5 +1,7 @@
 package fullcodes.session.arraysInJava;
 
+import java.util.Arrays;
+
 /**
  * Created by dotcom on 7/10/17.
  */
@@ -42,6 +44,10 @@ public class Student {
 
     public void showStudentAge1(){
         double[] tuition = {80.00, 52.00, 56D, 20d, 78};
+        System.out.println(tuition.length);
+        double[] a1 = tuition.clone();
+        double[] a2 = Arrays.copyOf(tuition, 3);
+
         System.out.println(tuition[4]);
     }
 
