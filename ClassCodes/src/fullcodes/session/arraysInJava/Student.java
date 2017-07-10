@@ -48,6 +48,17 @@ public class Student {
         double[] a1 = tuition.clone();
         double[] a2 = Arrays.copyOf(tuition, 3);
 
+        double[] container = new double[4];
+
+
+        for (int i=0; i<tuition.length; i++){
+            if(tuition[i] != 80D){
+                container[i-1] = tuition[i];
+            }
+        }
+
+
+
         System.out.println(tuition[4]);
     }
 
