@@ -25,8 +25,9 @@ public class Student {
 
     public void createStudentAgesWithEnhancedForLoop(){
         int[][] ages = this.studentAges();
-        for(int[] age : ages){
-            for(int a : age){
+        for(int[] age : ages){ //first loop is what I am using to iterate over rows
+            for(int a : age){ // second loop is used to iterate in each row, to iterate over their columns
+                System.out.println(a);
                 System.out.println(a);
             }
         }
