@@ -11,5 +11,19 @@ public class BuildingRunner {
 
 
         building.buyBuilding();
+
+
+        Account myAccount = new Account();
+        myAccount.displayAccountBal(29500);
+        System.out.println("Please issue a bank cheque for initial deposit of 1000");
+
+
+        CurrentAccount currentAccount = new CurrentAccount();
+        currentAccount.withdrawCash();
+        currentAccount.DepositCash();
     }
+
+
+
 }
+
