@@ -5,6 +5,36 @@ package fullcodes.session.twoDimArraysInJava;
  */
 public class Student {
 
+
+    public void createStudentAge(){
+        int[][] studentAges = new int[4][5];
+
+        studentAges[0][0] = 25;
+        studentAges[0][1] = 27;
+        studentAges[0][2] = 35;
+        studentAges[0][3] = 24;
+        studentAges[0][4] = 21;
+
+        studentAges[1][0] = 22;
+        studentAges[1][1] = 22;
+        studentAges[1][2] = 28;
+        studentAges[1][3] = 28;
+        studentAges[1][4] = 19;
+
+        for(int i = 0; i<studentAges.length; i++){
+            for(int j = 0; j<studentAges[i].length; j++){
+                System.out.println(studentAges[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
+    }
+
+
+
+
+
     public void findStudent(String nameToSearch){
 
         String[][]studentNames = this.getStudentNames();

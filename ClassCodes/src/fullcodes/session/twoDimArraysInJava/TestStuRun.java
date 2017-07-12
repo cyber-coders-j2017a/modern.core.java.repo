@@ -1,5 +1,7 @@
 package fullcodes.session.twoDimArraysInJava;
 
+import fullcodes.session.arraysInJava.*;
+
 import java.util.Scanner;
 
 /**
@@ -8,11 +10,16 @@ import java.util.Scanner;
 public class TestStuRun {
 
     public static void main(String[] args) {
-        Scanner myScanner = new Scanner(System.in);
-        System.out.println("PLease enter the student to look for");
-        String name  = myScanner.nextLine();
-        Student mike = new Student();
-        mike.findStudent(name);
+
+        Student student = new Student();
+        student.createStudentAge();
+
+        
+//        Scanner myScanner = new Scanner(System.in);
+//        System.out.println("PLease enter the student to look for");
+//        String name  = myScanner.nextLine();
+//        Student mike = new Student();
+//        mike.findStudent(name);
 
     }
 }
