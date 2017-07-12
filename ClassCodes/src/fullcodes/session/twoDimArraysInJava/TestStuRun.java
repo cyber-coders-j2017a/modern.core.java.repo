@@ -12,9 +12,9 @@ public class TestStuRun {
     public static void main(String[] args) {
 
         Student student = new Student();
-        student.createStudentAge();
+        student.createStudentAgesWithEnhancedForLoop();
 
-        
+
 //        Scanner myScanner = new Scanner(System.in);
 //        System.out.println("PLease enter the student to look for");
 //        String name  = myScanner.nextLine();

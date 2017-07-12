@@ -6,7 +6,7 @@ package fullcodes.session.twoDimArraysInJava;
 public class Student {
 
 
-    public void createStudentAge(){
+    private int[][] studentAges(){
         int[][] studentAges = new int[4][5];
 
         studentAges[0][0] = 25;
@@ -20,6 +20,22 @@ public class Student {
         studentAges[1][2] = 28;
         studentAges[1][3] = 28;
         studentAges[1][4] = 19;
+        return studentAges;
+    }
+
+    public void createStudentAgesWithEnhancedForLoop(){
+        int[][] ages = this.studentAges();
+        for(int[] age : ages){
+            for(int a : age){
+                System.out.println(a);
+            }
+        }
+    }
+
+
+
+    public void createStudentAge(){
+        int[][] studentAges = this.studentAges();
 
         for(int i = 0; i<studentAges.length; i++){
             for(int j = 0; j<studentAges[i].length; j++){
@@ -27,7 +43,6 @@ public class Student {
             }
             System.out.println();
         }
-
 
     }
 
