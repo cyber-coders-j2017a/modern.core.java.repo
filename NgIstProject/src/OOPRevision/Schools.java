@@ -6,14 +6,21 @@ package OOPRevision;
 public class Schools {
 
     public String schoolName = "Warren Primary School";
+
+    //Field/Instance Variables
     private String schoolCategory = "Private";
     private int schoolNumber = 90;
     private double schoolFees = 35000.0D;
     private boolean isGood = true;
     private String schoolLocation = "Knightsbride";
+
+    //Class/Static Variables
     private static String schoolAddress = "10 Jeremyn Street, Knightsbridge";
     private static long schoolRefNo = 12345678L;
+
+    //Constant variable
     private static final String schoolType = "primary";
+
 
     public Schools(String schoolName, String schoolCategory, int schoolNumber, double schoolFees, boolean isGood, String schoolLocation) {
         this.schoolName = schoolName;
@@ -23,6 +30,16 @@ public class Schools {
         this.isGood = isGood;
         this.schoolLocation = schoolLocation;
     }
+
+    public void showSchoolfees() {
+        System.out.println(schoolFees);
+    }
+
+    public void setValue(boolean isGood) {
+        this.isGood = isGood;
+
+    }
+
 
     public void findSchool1() {
         System.out.println("The name of the school is Warren");
@@ -40,5 +57,9 @@ public class Schools {
         System.out.println("The name of the school is " + this.schoolName);
         System.out.println("The school is located " + schoolLocation);
         return "The address is " + schoolAddress + " and it will take us exactly an hour 30 min to get there";
+    }
+
+    public static void showExactLocation() {
+        System.out.println("10 Jeremyn Street, Knightsbridge");
     }
 }
