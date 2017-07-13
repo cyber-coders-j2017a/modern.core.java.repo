@@ -38,5 +38,9 @@ public class Account {
         this.accountBal = newaccountBal;
         return "Your new account balance after withdrawal is " +newaccountBal;
     }
+
+    public void showaccountName() {
+        System.out.println("Welcome back " +accountName+ "!");
+    }
 }
 
