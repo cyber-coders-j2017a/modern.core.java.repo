@@ -18,8 +18,11 @@ public class Birds {
         System.out.println(birdNames[3]);
         System.out.println(birdNames[0]);
 
-        for (int i = 0; i < birdNames.length; i++) {
-            System.out.println(birdNames[i]);
+        for (int n = 0; n < birdNames.length; n++) {
+            if (birdNames[n] == "Vulture") {
+                System.out.println("This bird is ugly");
+
+            }
         }
     }
 }
