@@ -1,4 +1,4 @@
-package fullcodes.session.arraysListInJava;
+package fullcodes.session.arraysListInJava.rev01;
 
 import java.util.ArrayList;
 import java.util.List;

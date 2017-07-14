@@ -1,4 +1,4 @@
-package fullcodes.session.arraysListInJava;
+package fullcodes.session.arraysListInJava.rev01;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,6 @@ public class Laptop {
         for(double lappyPrice : prices){
             System.out.println(lappyPrice);
         }
-
     }
 
 
