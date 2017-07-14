@@ -1,0 +1,14 @@
+public class CoalCityRunner {
+    public static void main(String[] args) {
+
+        String[] teamScores = new String[5];
+        teamScores[0] = "Arsenal";
+        teamScores[1] = "Everton";
+        teamScores[2] = "Chelsea";
+        teamScores[3] = "Blackburn";
+        teamScores[4] = "Liverpool";
+        System.out.println(teamScores[5]);
+
+          }
+
+}
