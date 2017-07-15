@@ -3,6 +3,8 @@ package JosPlateau;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Animals myNames = new Animals ();
+        myNames.localZoo();
+        System.out.println(myNames);
     }
 }
