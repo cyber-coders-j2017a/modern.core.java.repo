@@ -17,9 +17,9 @@ public class Building {
     }
 
     public void buyBuilding() {
+        System.out.println("I want to buy any reasonably priced " +BuildingName+ " in the market");
         this.displayComputerPrice();
         this.displayBuildingDetails();
-        System.out.println("I want to buy any reasonably priced " +BuildingName+ " in the market");
     }
 
     private void displayComputerPrice() {
@@ -28,7 +28,7 @@ public class Building {
     }
 
     private void displayBuildingDetails() {
-        System.out.println("All relevant details are displayed");
+        System.out.println("All relevant details of the " +BuildingName+ " are displayed");
 
     }
 
