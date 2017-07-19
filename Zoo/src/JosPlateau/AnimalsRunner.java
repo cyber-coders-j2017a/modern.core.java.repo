@@ -9,6 +9,5 @@ public class AnimalsRunner {
 
         Animals yourList= new Animals ();
         yourList.getMyAnimalList();
-        System.out.println(yourList);
     }
 }

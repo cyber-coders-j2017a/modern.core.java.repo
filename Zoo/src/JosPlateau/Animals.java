@@ -7,17 +7,18 @@ package JosPlateau;
 
 public void getMyAnimalList(){
 
-    double [] myList = new double[5];
+    double [] myLists = new double[5];
 
-    myList [0] = 10.50;
-    myList [1] = 7;
-    myList [2] = 8.50;
-    myList [3] = 12.80;
-    myList [4] = 15;
+    myLists [0] = 10.50;
+    myLists [1] = 7;
+    myLists [2] = 8.50;
+    myLists [3] = 12.80;
+    myLists [4] = 15;
 
     // print all the array elements using enhanced for loop
-    for (double element : myList){
-        System.out.println(element);
+    for (double myList : myLists){
+
+        System.out.println(myList);
     }
 
     }
