@@ -9,8 +9,8 @@ public class OrangeArraysRunner {
 
         OrangeArrays myList = new OrangeArrays();
 
-        myList.addOneGame("Rugby");
-        myList.removeOneGame("Javelin");
+        myList.addOneGame("Javelin");
+        myList.removeOneGame("Rugby");
         myList.showAllGames();
 
     }
