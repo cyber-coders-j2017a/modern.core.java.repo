@@ -6,8 +6,12 @@ package DemoList;
 public class OrangeArraysRunner {
 
     public static void main(String[] args) {
+
         OrangeArrays myList = new OrangeArrays();
-myList.ArrayListDemo();
+
+        myList.addOneGame("Rugby");
+        myList.removeOneGame("Javelin");
+        myList.showAllGames();
 
     }
 

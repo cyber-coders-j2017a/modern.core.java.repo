@@ -7,6 +7,73 @@ import java.util.ArrayList;
  */
 public class OrangeArrays {
 
+
+
+    public void removeOneGame(String gameName){
+
+        ArrayList<String> sportEvents = new ArrayList<String>(12);
+
+        sportEvents.add("Football");
+        sportEvents.add("Basketball");
+        sportEvents.add("Swimming");
+        sportEvents.add("VolleyBall");
+        sportEvents.add("Badminton");
+        sportEvents.add("Lawn Tennis");
+        sportEvents.add("Table Tennis");
+        sportEvents.add("Handball");
+        sportEvents.add("Ice Hockey");
+        sportEvents.add("Cricket");
+        sportEvents.add("Rugby");
+        sportEvents.add(3,"Soccer");
+
+        sportEvents.remove(gameName);
+    }
+
+
+    public void addOneGame(String gameName){
+        ArrayList<String> sportEvents = new ArrayList<String>(12);
+
+        sportEvents.add("Football");
+        sportEvents.add("Basketball");
+        sportEvents.add("Swimming");
+        sportEvents.add("VolleyBall");
+        sportEvents.add("Badminton");
+        sportEvents.add("Lawn Tennis");
+        sportEvents.add("Table Tennis");
+        sportEvents.add("Handball");
+        sportEvents.add("Ice Hockey");
+        sportEvents.add("Cricket");
+        sportEvents.add("Rugby");
+        sportEvents.add(3,"Soccer");
+
+        sportEvents.add(gameName);
+
+    }
+
+    public void showAllGames(){
+        ArrayList<String> sportEvents = new ArrayList<String>(12);
+
+        sportEvents.add("Football");
+        sportEvents.add("Basketball");
+        sportEvents.add("Swimming");
+        sportEvents.add("VolleyBall");
+        sportEvents.add("Badminton");
+        sportEvents.add("Lawn Tennis");
+        sportEvents.add("Table Tennis");
+        sportEvents.add("Handball");
+        sportEvents.add("Ice Hockey");
+        sportEvents.add("Cricket");
+        sportEvents.add("Rugby");
+        sportEvents.add(3,"Soccer");
+
+        for(String sportEvent : sportEvents){
+            System.out.println(sportEvent);
+        }
+    }
+
+
+
+
     public void ArrayListDemo (){
 
         ArrayList <String>sportEvents = new ArrayList<String>(12);
