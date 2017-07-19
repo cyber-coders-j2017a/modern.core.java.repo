@@ -11,8 +11,12 @@ public class ComputersRunner {
 
 
 
+        myComputer.showAllStoreOutlets();
+
 
     }
+
+
 
 
 
