@@ -28,17 +28,10 @@ public class OrangeArrays {
         sportEvents.add("Rugby");
         sportEvents.add(3,"Soccer");
 
-        System.out.println("List of sport events after additions:" + sportEvents.size() );
-
-        // Display the array List
-        System.out.println("Contents of sportEvents:" + sportEvents);
-
         //Remove elements from the array list
         sportEvents.remove("Rugby");
         sportEvents.remove(4);
-
-        System.out.println("List of sportEvents after deletion:" + sportEvents.size());
-        System.out.println("Content  of sportEvents:" + sportEvents);
+        sportEvents.add("Javelin");
 
         for(String sportEvent:sportEvents){
             System.out.println(sportEvent);
