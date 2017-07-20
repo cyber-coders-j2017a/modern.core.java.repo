@@ -5,10 +5,10 @@ package ArraysInJava;
  */
 public class ComputerShopsRunner2 {
 
-//    public static void main(String[] args) {
-//
-//        ComputerShops shops = new ComputerShops();
-//        String[][] findmyShop = shops.getComputerShops();
-//        System.out.println(findmyShop);
-//    }
+    public static void main(String[] args) {
+
+        ComputerShops shops = new ComputerShops();
+        String[][] findmyShop = shops.getComputerShops();
+        System.out.println(findmyShop);
+    }
 }
