@@ -24,6 +24,7 @@ public class Animal {
     }
 
 
+    @Deprecated
     public String[] getAnimalNames(){
 
         String animalNames = "Cattle, Lion, Goat, Sheep, Lizard, Chicken";
