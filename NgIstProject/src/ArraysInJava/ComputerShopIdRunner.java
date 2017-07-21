@@ -9,7 +9,7 @@ public class ComputerShopIdRunner {
 
         ComputerShopId shopId = new ComputerShopId();
 
-        //shopId.getStoreId();
+        shopId.getStoreId();
 
         shopId.getShopno();
     }
