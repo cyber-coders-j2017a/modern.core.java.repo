@@ -1,9 +1,12 @@
 package ArraysInJava;
 
+import java.util.Arrays;
+
 /**
  * Created by beatriceotugo on 17/07/2017.
  */
 public class ComputerPrice {
+
 
     public void displayStoreComputerPrice() {
 
@@ -17,14 +20,13 @@ public class ComputerPrice {
         }
 
 
-    }
-
-
-        public void displayOnlineComputerPrice() {
+    }public void displayOnlineComputerPrice() {
             double [] price = {100.00, 200.00, 375.00, 1600.75, 655.99};
             System.out.println(price[3]);
-
-
+            double[] price1 = price.clone();
+            double[] price2 = Arrays.copyOf(price, 3);
 
     }
+
+
 }
