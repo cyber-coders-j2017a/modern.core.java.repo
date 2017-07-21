@@ -7,7 +7,11 @@ public class MusicRunner {
     public static void main(String[] args) {
 
         Music music = new Music();
-        music.createMusicTypes();
+        music.addOneMusicKind("Jazz");
+        music.addOneMusicKind("Country");
+        music.removeOneMusicKind("Punk");
+        music.showAllMusicTypes();
+
 
     }
 }
