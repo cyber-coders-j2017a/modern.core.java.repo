@@ -8,6 +8,7 @@ public class AnimalRunnerTest {
     public static void main(String[] args) {
         Animal animal = new Animal();
 
+        animal.showWords();
         animal.getAnimalNames();
     }
 }

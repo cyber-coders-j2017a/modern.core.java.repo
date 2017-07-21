@@ -5,6 +5,25 @@ package fullcodes.session.UtilitiesPacks;
  */
 public class Animal {
 
+
+
+    //Show the array group that contains the word "ney"
+    public void showWords(){
+        String statement = "This is the man who lost his money in the pool yesterday oh";
+        String [] words = statement.split("o");
+
+        for(int i = 0; i< words.length; i++){
+
+            if(words[i].contains("ney")){
+                System.out.println(words[i]);
+                break;
+            }
+
+        }
+
+    }
+
+
     public String[] getAnimalNames(){
 
         String animalNames = "Cattle, Lion, Goat, Sheep, Lizard, Chicken";
