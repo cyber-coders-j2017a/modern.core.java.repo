@@ -9,10 +9,20 @@ public class Horse {
     private String horseColour = "Black";
     private int numOfLegs = 4;
     protected boolean hasEaten = true;
+    private String[] horseColours= {"Black", "White", "Black n WHite"};
 
 
     public void showNumberOfLegs(){
         System.out.println(numOfLegs);
+    }
+
+    public void checkForHorseColour(String neededColour){
+        for(String horseColour : horseColours){
+            if(horseColour.contains("Black")){
+                System.out.println("Yes we have the black horse ready for inspection");
+                break;
+            }
+        }
     }
 
 }

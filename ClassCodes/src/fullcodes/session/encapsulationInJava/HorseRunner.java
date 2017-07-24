@@ -7,6 +7,7 @@ public class HorseRunner {
 
     public static void main(String[] args) {
         Horse horse = new Horse();
+        horse.checkForHorseColour("Black");
         horse.showNumberOfLegs();
     }
 }
