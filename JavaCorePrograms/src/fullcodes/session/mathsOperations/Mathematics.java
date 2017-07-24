@@ -33,6 +33,11 @@ public class Mathematics {
 
 
 
+
+
+
+
+
         //Decrement by 1
         System.out.println(--b);
 
