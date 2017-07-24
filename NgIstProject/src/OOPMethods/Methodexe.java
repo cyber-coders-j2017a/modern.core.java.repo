@@ -12,6 +12,11 @@ public class Methodexe {
 
         MethodVoid myMthd = new MethodVoid(20, 30, 40d);
 
+        MethodVoid method = new MethodVoid(new Focus());
+
+        MethodVoid.addnumbers5(4, 90);
+
+
         myMethod.addnumbers1st();
 
         myMethod.addnumbers2nd(18, 90);
@@ -19,8 +24,6 @@ public class Methodexe {
         String ans = myMethod.addnumbers3rd(100, 4);
         System.out.println(ans);
 
-        Object number = myMethod.getTheRightNumber();
-        String name = (String) number;
 
     }
 }
