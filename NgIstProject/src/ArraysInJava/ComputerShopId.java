@@ -8,10 +8,10 @@ public class ComputerShopId {
     public void getStoreId() {
         int[][] storeNo = this.getShopNo();
 
-        for (int x = 1; x < storeNo.length; x++) {
+        for (int x = 0; x < storeNo.length; x++) {
 
 
-            for (int y = 1; y < storeNo[x].length; y++) {
+            for (int y = 0; y < storeNo[x].length; y++) {
 
                 System.out.println(storeNo[x][y]);
             }
