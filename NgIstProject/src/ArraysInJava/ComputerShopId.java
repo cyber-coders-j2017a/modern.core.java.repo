@@ -10,7 +10,6 @@ public class ComputerShopId {
 
         for (int x = 0; x < storeNo.length; x++) {
 
-
             for (int y = 0; y < storeNo[x].length; y++) {
 
                 System.out.println(storeNo[x][y]);
