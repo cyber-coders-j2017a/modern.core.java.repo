@@ -5,7 +5,7 @@ public class StudentGrade {
 
 
     public String[] splitStudentGrade (){
-    String studentGrades = ("Pass,Fail,Pass,Resit,Pending");
+    String studentGrades = "Pass,Fail,Pass,Resit,Pending";
     String[] grades = studentGrades.split(",");
 
     for( String grade : grades) {

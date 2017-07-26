@@ -23,7 +23,7 @@ public class Student {
 
     }
 
-    public void assignStudentScore() {
+    public void assignAndDisplayStudentScore() {
         ArrayList<Integer> scores = this.createStudentScores();
         scores.set(4, 100);
         for (int studentScore:scores){
@@ -33,7 +33,7 @@ public class Student {
 
     }
 
-    public void swapStudentScore() {
+    public void swapAndShowStudentScore() {
 
         ArrayList<Integer> scores = this.createStudentScores();
 
