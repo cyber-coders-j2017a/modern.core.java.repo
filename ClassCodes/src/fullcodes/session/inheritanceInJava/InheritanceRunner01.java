@@ -8,13 +8,18 @@ public class InheritanceRunner01 {
     public static void main(String[] args) {
 
         Daughter daughter = new Daughter();
+
         daughter.showFinancialWorth();
         daughter.enrolInSchool();
-        double inheritedAmount= daughter.payMyDaughterMoney();
-        System.out.println(inheritedAmount);
+
+        double inheritedAmount = daughter.payMyDaughterMoney();
+
+        Son son = new Son();
+        son.creditSonAccount(inheritedAmount);
 
         double totalWorth  = daughter.getMyTotalWorth();
-        System.out.println(totalWorth);
+        son.payWife();
+
 
 
 //        Father father = new Father();
