@@ -15,20 +15,20 @@ public class Courses {
 
 
     public void listAllCourseCost() {
-        ArrayList<Double> allCourseCost = this.selectCourseCost();
+        ArrayList<Double> CourseCost = this.selectCourseCost();
 
-        for (double courseCost : allCourseCost) {
+        for (double courseCost : CourseCost) {
             System.out.println(courseCost);
 
         }
     }
 
 
-    public void listAllMyCostCost() {
-        ArrayList<Double> allMyCourseCost = this.selectCourseCost();
+    public void listAllMyCourseCost() {
+        ArrayList<Double> CourseCost = this.selectCourseCost();
 
-        for (int x = 0; x<allMyCourseCost.size(); x++) {
-            System.out.println(allMyCourseCost.get(x));
+        for (int x = 0; x<CourseCost.size(); x++) {
+            System.out.println(CourseCost.get(x));
 
         }
     }
@@ -43,10 +43,26 @@ public class Courses {
         coursePrice.add(1100D);
         coursePrice.add(3, 2300D);
         coursePrice.add(1490D);
-
-
+        coursePrice.set(3, 1500D);
         coursePrice.get(0);
         return coursePrice;
+
+    }
+
+    public void getSpecificCourseCost() {
+       ArrayList<Double> CourseCost = this.selectCourseCost();
+       int costIndex = CourseCost.indexOf(750D);
+       System.out.println(costIndex);
+    }
+
+    public void removeCourseCost() {
+        ArrayList<Double> CourseCost = this.selectCourseCost();
+
+        //Double invalidCost = CourseCost.remove(5);
+        //OR
+
+        boolean invalidCost = CourseCost.remove(1490D);
+        System.out.println(invalidCost);
 
     }
 }

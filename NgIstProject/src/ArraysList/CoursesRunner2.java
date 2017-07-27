@@ -8,6 +8,8 @@ public class CoursesRunner2 {
     public static void main(String[] args) {
 
         Courses myCourses = new Courses();
-        myCourses.listAllMyCostCost();
+        //myCourses.listAllMyCourseCost();
+
+        myCourses.removeCourseCost();
     }
 }
