@@ -1,4 +1,4 @@
-package fullcodes.session.inheritanceInJava;
+package fullcodes.session.inheritanceInJava.v01;
 
 /**
  * Created by dotcom on 7/26/17.
