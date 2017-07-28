@@ -11,5 +11,7 @@ public class CoursesRunner {
 
         Courses myCourses = new Courses();
         myCourses.listAllCourseCost();
+
+        myCourses.getSpecificCourseCost();
     }
 }
