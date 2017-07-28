@@ -1,4 +1,4 @@
-package fullcodes.session.encapsulationInJava.gettersAndSetters;
+package fullcodes.session.encapsulationInJava.gettersAndSettersv01;
 
 /**
  * Created by dotcom on 7/28/17.

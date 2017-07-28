@@ -1,11 +1,11 @@
-package fullcodes.session.encapsulationInJava.gettersAndSetters;
+package fullcodes.session.encapsulationInJava.gettersAndSettersv01;
 
 /**
  * Created by dotcom on 7/28/17.
  */
 public class Camera {
 
-    private String cameraName;
+    private String cameraName = "Nokia";
     private boolean canSnap;
     private long zoomLength;
 
@@ -15,15 +15,18 @@ public class Camera {
         this.zoomLength = zoomLength;
     }
 
-    // Getter
-    public String getCameraName(){
-        return cameraName;
-    }
 
     //Setter
     public void setCameraName(String cameraName){
         this.cameraName = cameraName;
     }
+
+
+    // Getter
+    public String getCameraName(){
+        return cameraName;
+    }
+
 
 
     //Getter for zoomLength
