@@ -8,6 +8,12 @@ public class Car extends Motor {
 
     protected int carHeight = 2;
 
+    public Car(int motorSize, int motorLength, int carHeight) {
+        super(motorSize, motorLength);
+        this.carHeight = carHeight;
+    }
+
+
     public int getCarHeight() {
         return carHeight;
     }

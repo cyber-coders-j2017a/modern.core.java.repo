@@ -10,6 +10,12 @@ public class Motor {
 
     // Motor => Car => BMW
 
+
+    public Motor(int motorSize, int motorLength) {
+        this.motorSize = motorSize;
+        this.motorLength = motorLength;
+    }
+
     public int getMotorSize() {
         return motorSize;
     }

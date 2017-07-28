@@ -7,7 +7,8 @@ public class VehRunner {
 
 
     public static void main(String[] args) {
-        Bmw bmw = new Bmw();
+        Bmw bmw = new Bmw(10, 100, 4);
+        int motSize = bmw.getMotorSizeFromBmw();
         int motLength = bmw.getMotorLength();
     }
 
