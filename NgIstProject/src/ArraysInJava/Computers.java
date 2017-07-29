@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Computers {
 
 
-    public void buyComputer() {
+    public void buyComputer(String findMyComputer) {
         String[] ComputerBrands = new String[10];
         ComputerBrands[0] = "hp";
         ComputerBrands[1] = "mac";
@@ -22,27 +22,39 @@ public class Computers {
         ComputerBrands[9] = "compaq";
 
         for (int x = 0; x < ComputerBrands.length; x++) {
-            System.out.println(ComputerBrands[x]);
+            //System.out.println(ComputerBrands[x]);
 
-            if (ComputerBrands[x].toLowerCase().contains("Hitachi".toLowerCase())) {
-                System.out.println("We do not sell Hitachi, please choose another computer brand");
-                break;
+            if (findMyComputer.toLowerCase().equalsIgnoreCase(ComputerBrands[x])) {
+                System.out.println("We do sell this computer brand");
+                return;
+
             }
 
-
         }
+
+        System.out.println("We do not sell this computer brand");
 
     }
 
-
-    public void showAllStoreOutlets() {
+    public void showAllStoreOutlets(String findAnOutlet) {
         String[] storeOutlet = {"london", "lancaster", "Aberystwyth", "Portcawl", "HemelHempstead", "Woking"};
         for(String stores : storeOutlet) {
-            System.out.println(stores);
 
-            String[] outlet1 = storeOutlet.clone();
+
+            if(findAnOutlet.toLowerCase().equalsIgnoreCase(stores)) {
+                System.out.println("We do sell this computer brand in the outlet above, please check our address section for Postcode");
+                return;
+
+            }
+
         }
+
+        System.out.println("We do not sell this computer brand in the city entered");
+
 
 
     }
+
+
+    //String[] outlet1 = storeOutlet.clone();
 }

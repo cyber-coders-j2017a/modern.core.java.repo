@@ -12,8 +12,8 @@ public class Travels {
 
     public void showCalendar(){
         GregorianCalendar calendar = new GregorianCalendar();
-        TimeZone timepZone = calendar.getTimeZone();
-        System.out.println(timepZone);
+        TimeZone timeZone = calendar.getTimeZone();
+        System.out.println(timeZone);
     }
 
 
