@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<module version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
-=======
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -16,5 +9,3 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
-
->>>>>>> e836f60c9d64f0bfe129ad2d59684fbf8d1c1d59
