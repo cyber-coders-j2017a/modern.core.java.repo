@@ -27,10 +27,10 @@ public class UKGovAccount {
     }
 
     //Methods - 2
-    public long createBankAccount(int bankRegCode){
+    public String createBankAccount(int bankRegCode){
         long accountType = 01;
         long acountEnd = 44;
-        return bankRegCode + accountType + acountEnd;
+        return bankRegCode + ""+accountType +""+ acountEnd;
     }
 
     public static String generateSortCode(int bankCode){

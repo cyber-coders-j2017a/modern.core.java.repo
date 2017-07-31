@@ -8,8 +8,9 @@ import java.util.Random;
 public class HsbcUk extends UKGovAccount {
 
     private String bankLogo;
-    private double accountNumber;
+    private String accountNumber;
     private static long PIN;
+    private double accountBalance;
 
 
     public HsbcUk(String motto, String bankAddress, String bankLogo) {
@@ -29,7 +30,7 @@ public class HsbcUk extends UKGovAccount {
 
     private void generatePinNumber(){
         Random radom = new Random();
-        this.PIN = radom.nextLong() + 233;
+        this.PIN = 233+ radom.nextInt(1) ;
     }
 
     public void createCustomerAccount(String customerName){
@@ -39,14 +40,16 @@ public class HsbcUk extends UKGovAccount {
 
 
     public void creditAccount(long pin, double amountToBeDeposited){
-        if(pin == PIN){
-            if(accountNumber != 0){
-               this.accountNumber = accountNumber +  amountToBeDeposited;
-            }else{
-                System.out.println("There is no account number for this customer");
-            }
+        if(pin >= PIN){
+            this.decideAndCredit(amountToBeDeposited);
         }else{
             System.out.println("Access denied");
         }
+    }
+
+
+
+    private void decideAndCredit(double amountToBeDeposited){
+        this.accountBalance = accountBalance +  amountToBeDeposited;
     }
 }
