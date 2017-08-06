@@ -1,4 +1,4 @@
-package ObjOrientedProg;
+package ObjOrientedProg.Encapsulation;
 
 /**
  * Created by oddie on 04/08/2017.

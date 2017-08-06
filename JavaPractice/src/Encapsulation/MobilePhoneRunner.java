@@ -1,4 +1,6 @@
-package ObjOrientedProg;
+package ObjOrientedProg.Encapsulation;
+
+import ObjOrientedProg.Encapsulation.MobilePhone;
 
 /**
  * Created by oddie on 04/08/2017.
