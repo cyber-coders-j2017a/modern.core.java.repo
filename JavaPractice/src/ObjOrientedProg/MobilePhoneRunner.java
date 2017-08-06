@@ -9,7 +9,7 @@ public class MobilePhoneRunner {
         MobilePhone Samsung = new MobilePhone("Samsung", 4.5D, true);
         String name = Samsung.getMobilePhoneName();
         Samsung.setMobilePhoneName("Nokia");
-        Samsung.setScreenSize(5.0D);
+        Samsung.setScreenSize(5.5D);
         Samsung.CanScreenTouch();
     }
 }
