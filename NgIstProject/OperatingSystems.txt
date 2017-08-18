@@ -1,0 +1,5 @@
+ MacOs
+ MicrosoftWindows
+ Linux
+ Unix
+ BSD
