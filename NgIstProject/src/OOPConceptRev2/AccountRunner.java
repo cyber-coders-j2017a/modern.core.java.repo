@@ -8,7 +8,7 @@ public class AccountRunner {
 
     public static void main(String[] args) {
 
-        Account barclays = new Account("Dee", 2000, "Barclays");
+        Account barclays = new Account("Dee", 2000, "BankCustomer");
 
         barclays.showaccountName();
 
