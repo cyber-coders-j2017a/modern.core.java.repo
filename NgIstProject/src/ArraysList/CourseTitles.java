@@ -8,10 +8,10 @@ import java.util.List;
  */
 public class CourseTitles {
 
-    public void displayAllCourses() {
-        //create a memory location
-        List<String> courseTitles = new ArrayList<String>();
-        //List<Object> courseTitle = new ArrayList<Object>();
+    //create a memory location
+    private ArrayList<String> courseTitles = new ArrayList<String>();
+
+    public CourseTitles () {
         //Assign values to it
         courseTitles.add("English");
         courseTitles.add("Maths");
@@ -22,7 +22,32 @@ public class CourseTitles {
         courseTitles.add("BusinessAnalysis");
         courseTitles.add(0, "Taxation");
         courseTitles.set(2, "PerformanceManagement");
-        System.out.println(courseTitles);
+    }
+
+    public void displayAllCourses() {
+        for (String courseTitle : courseTitles) {
+            System.out.println(courseTitle);
+        }
+    }
+
+    public String addANewCourse(String courseName) {
+        courseTitles.add(courseName);
+        return courseName;
+    }
+
+
+    //getting a value
+    public void retrieveACourse(String courseName) {
+        courseTitles.get(7);
+        System.out.println(courseName);
+
+    }
+
+    //removing a value
+    public Boolean deleteACourse() {
+        boolean invalidCourse = courseTitles.remove("English");
+        return invalidCourse;
+
     }
 
 

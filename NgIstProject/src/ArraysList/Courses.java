@@ -43,7 +43,7 @@ public class Courses {
         coursePrice.add(1100D);
         coursePrice.add(3, 2300D);
         coursePrice.add(1490D);
-        coursePrice.set(3, 1500D);
+        coursePrice.set(4, 1500D);
         coursePrice.get(0);
         return coursePrice;
 
